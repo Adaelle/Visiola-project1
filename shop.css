@@ -1,0 +1,31 @@
+#shop-container{
+    padding: 20px;
+display: grid;
+gap: 20px;
+grid-template-columns: repeat(6,1fr);
+}
+
+
+
+
+
+.product-card{
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+
+
+
+
+}.product-image-container{
+    height: 130px;
+    width: 100px;
+    background-color: red;
+    margin-bottom: 10px;
+}
+.product-price-container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
